@@ -9,21 +9,21 @@ The training dataset contains 49352 entries and 15 columns including interest_le
 defined as the number of inquiries a listing has in the duration that the listing was live on the site. 
 
 All features are listed below:
-•	bathrooms: number of bathrooms
-•	bedrooms: number of bedrooms
-•	building_id
-•	created
-•	description
-•	display_address
-•	features: a list of features about this apartment
-•	latitude
-•	listing_id
-•	longitude
-•	manager_id
-•	photos: a list of photo links. You are welcome to download the pictures yourselves from renthop's site, but they are the same as imgs.zip. 
-•	price: in USD
-•	street_address
-•	interest_level: this is the target variable. It has 3 categories: 'high', 'medium', 'low'
+- bathrooms: number of bathrooms
+- bedrooms: number of bedrooms
+- building_id: the id of the building
+- created: date and time when the post is created
+- description: description of the apartment
+- display_address: display address of the apartment in the posting
+- features: a list of features about this apartment
+- latitude: latitude of the apartment
+- listing_id: listing id of the apartment
+- longitude: longitude of the apartment
+- manager_id: id of the manager of the apartment
+- photos: a list of photo links. You are welcome to download the pictures yourselves from renthop's site, but they are the same as imgs.zip. 
+- price: in USD
+- street_address: street address of the apartment
+- interest_level: this is the target variable. It has 3 categories: 'high', 'medium', 'low'
 
 ### Methods
 I’ll first reframe the problem into a binary classification problem by combining apartments with ‘low’ or ‘medium’ interest_level as one 
