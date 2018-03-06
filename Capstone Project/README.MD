@@ -1,6 +1,7 @@
 ### Introduction
 
-An apartment rental listing includes content like text description, photos, number of bedrooms, price, etc and aims at attracting the most interest from potential renters. Therefore, both the apartment owners, potential renters and the website hosting the apartment rental listings are interested in figuring out how popular an apartment rental listing is. The goal of this project is 1) to predict the popularity of an apartment rental listing 2) provide practical suggestions to the apartment owners on how to improve the popularity of apartments. Ideally these suggestions would be tested with randomized experimentation.
+An apartment rental listing includes content like text description, photos, number of bedrooms, price, etc and aims at attracting the most interest from potential renters. Therefore, both the apartment owners, potential renters and the website hosting the apartment rental listings are interested in figuring out how popular an apartment rental listing is. The goal of this project is 1) to predict the popularity of an apartment rental listing 2) figure out key features responsible for the popularity of apartment rental listings and
+provide practical suggestions to the apartment owners on how to improve the popularity of apartments. Ideally these suggestions would be tested with randomized experimentation.
 
 ### Data
 The data is from Kaggle Two-Sigma competition, which provides both training and testing data set for the apartment rental listings:
