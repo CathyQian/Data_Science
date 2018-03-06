@@ -1,7 +1,6 @@
 ### Introduction
 
-An apartment rental listing includes content like text description, photos, number of bedrooms, price, etc and aims at attracting the most interest from potential renters. Therefore, both the apartment owners, potential renters and the website hosting the apartment rental listings are interested in figuring out how popular an apartment rental listing is. The goal of this project is 1) to predict the popularity of apartment rental listings 2) figure out key features responsible for the popularity of apartment rental listings and
-provide practical suggestions to the apartment renters on how to improve the popularity of rental listings.
+An apartment rental listing includes content like text description, photos, number of bedrooms, price, etc and aims at attracting the most interest from potential renters. Therefore, both the apartment owners, potential renters and the website hosting the apartment rental listings are interested in figuring out how popular an apartment rental listing is. The goal of this project is to predict the popularity of apartment rental listings.
 
 
 ### Data
