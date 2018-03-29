@@ -5,4 +5,5 @@ The Department of Education uses college scorecard to make it easier for student
 The data set can be found in the following link: 
 
 https://catalog.data.gov/dataset/college-scorecard
+
 https://collegescorecard.ed.gov/data/documentation/
