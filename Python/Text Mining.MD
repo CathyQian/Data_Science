@@ -7,11 +7,10 @@ References:
 - https://chrisalbon.com/python/cleaning_text.html
 
 ### tokenize text
-from nltk.tokenize import word_tokenize
 
-raw_docs = [‘Today is a big day.’, ‘Dad is away.’, ‘A haircut cost me $25.’]
-
-tokenized_docs = [word_tokenize(doc) for doc in raw_docs]
+    from nltk.tokenize import word_tokenize
+    raw_docs = [‘Today is a big day.’, ‘Dad is away.’, ‘A haircut cost me $25.’]
+    tokenized_docs = [word_tokenize(doc) for doc in raw_docs]
 
 ### remove stopwords
 from nltk.corpus import stopwords
