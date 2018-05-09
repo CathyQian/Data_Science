@@ -114,3 +114,30 @@ or read from file:
     f.close()
     f.closed
     
+    
+    # regular expression
+    import re
+    
+    ^: start of a string
+    $: end of a string
+    [^abc]: matches a character that is not a, b or c
+    [a-z]: matches one of the range of characters a, b, ...z
+    
+    \d: any digit, equivalent to [0-9]
+    \D: any non-digit, equivalent to [^0-9]
+    \w: alphanumeric character, equivalent to [a-zA-Z0-9_]
+    \W: non-alphanumeric character, equivalent to [^a-zA-Z0-9_]
+    \s: any whitespace, equivalent to [ \t\n\r\f\v]
+    \S: any non-whitespace, equivalent to [^ \t\n\r\f\v]
+    
+    *: matches zero or more occurrances
+    +: matches one or more occurrances
+    ?: matches zero or one occurrances
+    {n}: exactly n repetitions, n >= 0
+    {n,}: at least n repetitions
+    {,n}: at most n repetitions
+    {m, n}: at least m and at most n repetitions
+    
+    re.findall(r'[aeiou]', text) # find all a, e, i, o, u in text
+    
+    encoding = 'utf-8'
