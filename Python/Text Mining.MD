@@ -67,7 +67,50 @@ or read from file:
         tokenized_docs_no_stopwords.append(new_term_vector)          
     print tokenized_docs_no_stopwords
 
+### 7. Split Attached Words such as RainyDay, PlayingInTheCold 
+
+    cleaned_doc = “ ”.join(re.findall(‘[A-Z][^A-Z]*’, original_doc))
+
+### 8. Standardizing words such as looooooooove (to love)
+
+    doc = ''.join(''.join(s)[:2] for _, s in itertools.groupby(doc))
+    
+********************************************************************************
 ### Mislaneous
 
-    # lowercase all letters
-    line = line.lower()
+    # word comparison functions
+    s.startwith(t) # find string start with t in s iteratives
+    s.endswith(t) # find string end with t
+    t in s
+    s.isupper()
+    s.islower()
+    s.istitle()
+    s.isalpha()
+    s.isdigit()
+    s.isalnum()
+    
+    # string operations
+    s.lower() # lowercase all letters
+    s.upper() # uppercase all letters
+    s.titlecase()
+    s.split(t)
+    s.splitlines() # solit the text by lines
+    s.join(t)
+    s.strip()
+    s.rstrip() # remove the last character
+    s.find(t) # find character t from the beginning of the string s, return position in s
+    s.rfind(t) # find character t from the end of the string s, return position in s
+    s.replace(u,v) # replace all character u with character v in s
+    
+    # file operations
+    f = open(filename, mode)
+    f.readline() # read in the first line of the text
+    f.read()
+    f.read(n)
+    for line in f:
+        doSomething(line)
+    f.seek(n)
+    f.write(message)
+    f.close()
+    f.closed
+    
