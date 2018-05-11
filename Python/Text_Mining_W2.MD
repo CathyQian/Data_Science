@@ -29,6 +29,19 @@
     trees = parser.parse_all(text) # return a tree structure indicating the sentence structure
   
 #### 5. Words similarity (for words correction)
+    from nltk.corpus import words
 
+    correct_spellings = words.words()
     nltk.jaccard_distance(set(nltk.ngrams(entry, n=3)), set(nltk.ngrams(candidate, n=3) # n = 3 means trigram
     nltk.edit_distance(entry, candidate)
+    
+    # find correct spellings for entries
+    def answer_eleven(entries=['cormulent', 'incendenece', 'validrate']):
+    
+    results = []
+    for entry in entries:
+        candidates = [w for w in correct_spellings if w[0] == entry[0]]
+        results.append(min(candidates, key=
+                           lambda candidate:nltk.edit_distance(entry, candidate)))
+    
+    return results
