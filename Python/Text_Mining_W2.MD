@@ -28,3 +28,7 @@
     parser = nltk.ChartParser(grammer)
     trees = parser.parse_all(text) # return a tree structure indicating the sentence structure
   
+#### 5. Words similarity (for words correction)
+
+    nltk.jaccard_distance(set(nltk.ngrams(entry, n=3)), set(nltk.ngrams(candidate, n=3) # n = 3 means trigram
+    nltk.edit_distance(entry, candidate)
