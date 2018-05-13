@@ -1,3 +1,5 @@
+# Below are summary notes of Applied Text Mining in Python by University of Michigan on Coursera.
+## Week 4. Semantic Text Similarity
 ### 1. Document Similarity
 
     import numpy as np
