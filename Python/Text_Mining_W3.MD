@@ -1,4 +1,5 @@
-### Week 3.
+# Below are summary notes of Applied Text Mining in Python by University of Michigan on Coursera.
+## Week 3. Text Classification
 
 #### Using SKlearn's NaiveBayesClassifer
 
