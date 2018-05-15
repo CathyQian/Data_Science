@@ -1,5 +1,23 @@
 # Below are summary notes of Applied Text Mining in Python by University of Michigan on Coursera.
 ## Week 2. Basic Natural Language Processing
+
+Shallow NLP technique are used to extract key words or phrases (n-gram, n can be 2, 3, 4, ...) from texts. General steps involves: 
+
+1) Convert the sentence to lowercase
+
+2) Remove stopwords (these are common words found in a language. Words like for, very, and, of, are, etc, are common stop words)
+
+3) Extract n-gram i.e., a contiguous sequence of n items from a given sequence of text (simply increasing n, model can be used to store more context)
+
+4) Assign a syntactic label (noun, verb etc.)
+
+5) Knowledge extraction from text through semantic/syntactic analysis approach i.e., try to retain words that hold higher weight in a sentence like Noun/Verb
+
+All above can be implemented using NLTK packages in Python.
+
+Ref: https://datascience.stackexchange.com/questions/5316/general-approach-to-extract-key-text-from-sentence-nlp
+
+
 ### NLTK (Natural Language Toolkit)
 
     import nltk
