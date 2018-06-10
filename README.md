@@ -1,5 +1,4 @@
 ### Introduction
-Includes all projects/assignments for the Springboard data science bootcamp in 2017.
-- Data Cleaning
-- Statistical Analysis (R and Python)
-- Machine Learning
+This repository contains projects and notes from the Springboard Data Science Immersive in 2017.
+
+I continue updating my notes after existing the bootcamp, so some notes are my own intellectual activities instead of Springboard's. You can distinguish such files in the README.MD file.
