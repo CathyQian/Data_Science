@@ -11,7 +11,7 @@ It depends. Below are questions to consider when deciding which algorithms to us
 For certain types of data, the number of features can be very large compared to the number of data points. This is often the case with genetics or textual data. The large number of features can bog down some learning algorithms (i.e., support vector machine), making training time unfeasibly long.
 
 #### Linearity
-Lots of machine learning algorithms make use of linearity. Linear classification algorithms assume that classes can be separated by a straight line (or its higher-dimensional analog). These include logistic regression and support vector machines. Linear regression algorithms assume that data trends follow a straight line. These assumptions aren't bad for some problems, but on others they bring accuracy down. Despite their dangers, linear algorithms are very popular as a first line of attack. They tend to be algorithmically simple and fast to train.
+Lots of machine learning algorithms make use of linearity. Linear classification algorithms assume that classes can be separated by a straight line (or its higher-dimensional analog), for example, logistic regression. Linear regression algorithms assume that data trends follow a straight line. These assumptions aren't bad for some problems, but on others they bring accuracy down. Despite their dangers, linear algorithms are very popular as a first line of attack. They tend to be algorithmically simple and fast to train.
 
 #### Accuracy VS Speed
 Getting the most accurate answer possible isn't always necessary. Sometimes an approximation is adequate, depending on what you want to use it for. If that's the case, you may be able to cut your processing time dramatically by sticking with more approximate methods. 
@@ -24,8 +24,8 @@ Getting the most accurate answer possible isn't always necessary. Sometimes an a
 - logistic regression: good for binary and multiclass classification. Gives linear class boundary, so when you use it, make sure a linear approximation is something you can live with.
 - decision trees, random forests, XGBoost: regression, two-class, and multiclass ( they all do the same thing—subdivide the feature space into regions with mostly the same label), may be slow if the trees have too many branches.
 - neural network: multiclass, two-class, regression; can handle complex nonlinear relationships, takes a long time to train, have more parameters than most algorithms
-- support vector machine: two-class, can handle complex nonlinear relationships, run fast, good at feature-intense data such as text or genomic (quicker and require a modest amount of memory), among the best with limited data.
-- Naïve Bayes: two-class, linear regression; mostly used at text classification and multi-class, avoid overfitting, have very few parameters , quick for large data sets, good when CPU and memory resources are a limiting factor
+- support vector machine: two-class, can handle complex nonlinear relationships, run fast, among the best with limited data.
+- Naïve Bayes: two-class, linear regression; mostly used at text classification and multi-class, avoid overfitting, have very few parameters , quick for large data sets, good when CPU and memory resources are a limiting factor, but based on the assumption that the features are independent.
 - PCA: dimension reduction, anomaly detection
 - K-means: clustering
 - KNN: classification, simple, often effective but slow and requires lots of memory.
