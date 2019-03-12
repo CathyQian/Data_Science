@@ -34,7 +34,7 @@ Getting the most accurate answer possible isn't always necessary. Sometimes an a
 - Classification (supervised ML) (two-class or multi-class):
 Naïve Bayes, logistic regression, SVM, decision trees, random forests, XGBoost, neural network, KNN
 
-- Regression (supervised ML): linear regression, Naïve Bayes, decision trees, random forests, XGBoost, Neural network
+- Regression (supervised ML): linear regression, KNN, decision trees, random forests, XGBoost, Neural network
 - Clustering (unsupervised ML): KMeans
 - Dimensionality reduction: PCA
 
